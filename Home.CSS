@@ -7,7 +7,7 @@
 .heading {
   height: 100vh;
   width: 100%;
-  background-image: url(../images/chinemerem2.jpeg);
+  background-image: url(../images/Chinemerem2.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -66,6 +66,7 @@ nav ul li a:hover {
   top: 50%;
   left: 8px;
   transform: translateY();
+  margin-left: 50px;
 }
 h1 {
   color: Black;
@@ -111,7 +112,73 @@ h4 {
 
 /* Project Styling */
   
+/* .project-section{ */
+  /* background-color: pink;
+  width: 100%;
+  margin: 0px auto;
+  background-color: brown;
+} 
+
+.projects{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: brown;
+  width: 80%;
+}
+
+.project{
+  background-color: yellow;
   
+}
+
+.project-name{
+
+}
+
+.project-name a{
+  font-size: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project p{
+  font-size: 13px;
+}
+
+.project .decsription{
+  background-color: white;
+  display: flex;
+}
+
+.project .decsription p{
+
+}
+
+.project .decsription .images{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.project .decsription .images img{
+  height: 20px;
+  width: 30px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* About me styling */
@@ -240,6 +307,99 @@ h5 {
   cursor: pointer;
 }
 
+/* hobbies page */
+
+.hobby-section{
+  background-color: rgba(73, 67, 67, 0.549);
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.hobby-section h1{
+  text-align: center;
+}
+.hobbies{
+  width: 100%;
+}
+.travel{
+  display: flex;
+  padding: 10px 90px;
+}
+
+.travel img{
+  border-radius: 20px;
+}
+
+.one{
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.one h3{
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+.one p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-top: -40px;
+}
+.chatting{
+  display: flex;
+  padding: 10px 90px;
+  margin-top: 50px;
+}
+
+.chatting img{
+  border-radius: 20px;
+}
+
+.two{
+  padding-right: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.two h3{
+  font-size: 36px;
+  color: black;
+  letter-spacing: 2px;
+}
+.two p{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin-top: -40px;
+}
+.reading{
+  display: flex;
+  padding: 10px 90px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.reading img{
+  border-radius: 20px;
+}
+
+.three{
+  padding-left: 50px;
+  text-align: center;
+  padding-top: 50px;
+}
+.three h3{
+  font-size: 36px;
+  letter-spacing: 2px;
+}
+.three p{
+  font-size: 20px;
+  line-height: 30px;
+  color: black;
+  letter-spacing: 1px;
+  margin-top: -40px;
+}
+
+/* Contact me */
 
 .contact-me {
   width: 100%;
@@ -271,6 +431,9 @@ h5 {
   background-color: transparent;
   border: 2px solid red;
 }
+
+/* Footer Section */
+
 footer {
   position: relative;
   width: 100%;
@@ -282,7 +445,7 @@ footer {
   justify-content: center;
 }
 footer p:nth-child(1) {
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   margin-bottom: 20px;
   font-weight: bold;
@@ -319,80 +482,4 @@ footer p:nth-child(2) {
   color: red;
   bottom: 35px;
   font-size: 14px;
-}
-/* hobbies page */
-
-.hobby-section{
-  background-color: rgba(73, 67, 67, 0.549);
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 40px;
-}
-.hobby-section h1{
-  text-align: center;
-}
-.hobbies{
-  width: 100%;
-}
-.travel{
-  display: flex;
-  padding: 10px 90px;
-}
-.one{
-  padding-left: 50px;
-  text-align: center;
-  padding-top: 50px;
-}
-.one h3{
-  font-size: 36px;
-  letter-spacing: 2px;
-}
-.one p{
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 1px;
-  margin-top: -40px;
-}
-.chatting{
-  display: flex;
-  padding: 10px 90px;
-  margin-top: 50px;
-}
-.two{
-  padding-right: 50px;
-  text-align: center;
-  padding-top: 50px;
-}
-.two h3{
-  font-size: 36px;
-  color: black;
-  letter-spacing: 2px;
-}
-.two p{
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 1px;
-  margin-top: -40px;
-}
-.reading{
-  display: flex;
-  padding: 10px 90px;
-  margin-top: 50px;
-  text-align: center;
-}
-.three{
-  padding-left: 50px;
-  text-align: center;
-  padding-top: 50px;
-}
-.three h3{
-  font-size: 36px;
-  letter-spacing: 2px;
-}
-.three p{
-  font-size: 20px;
-  line-height: 30px;
-  color: black;
-  letter-spacing: 1px;
-  margin-top: -40px;
 }
