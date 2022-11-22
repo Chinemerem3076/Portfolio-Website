@@ -7,7 +7,7 @@
 .heading {
   height: 100vh;
   width: 100%;
-  background-image: url(../images/Chinemerem2.jpeg);
+  background-image: url('./images/Chinemerem2.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -111,23 +111,22 @@ h4 {
 }
 
 /* Project Styling */
-  
-.project-section{
+
+.project-section {
   background-color: pink;
   width: 100%;
   margin: -20px auto 0px;
   background-color: brown;
   padding-bottom: 30px;
-} 
+}
 
-.project-section h1{
+.project-section h1 {
   width: 100%;
   align-items: center;
   text-align: center;
 }
 
-
-.projects{
+.projects {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -136,56 +135,55 @@ h4 {
   width: 90%;
 }
 
-.project{
+.project {
   background-color: yellow;
   border: black solid 2px;
   width: 100%;
   margin: 0px 5px;
   padding: 0px 10px;
   border-radius: 10px;
-  
 }
 
-.paragraphy{
+.paragraphy {
   font-size: 20px;
 }
 
-.project-name{
+.project-name {
   width: 60%;
   margin: 0px auto;
 }
 
-.project-name h4{
+.project-name h4 {
   font-size: 30px;
   text-decoration: none;
   font-weight: bold;
   text-align: center;
 }
 
-.project-name p{
+.project-name p {
   font-size: 13px;
   /* text-align: center; */
 }
 
-.paragraphy{
+.paragraphy {
   background-color: green;
   width: 100%;
 }
 
-.paragraphy p{
+.paragraphy p {
   font-size: 20px;
 }
 
-.date{
+.date {
   background-color: pink;
   width: 100%;
 }
 
-.date p{
+.date p {
   font-size: 16px;
 }
 
-.date a{
+.date a {
   font-size: 16px;
   text-decoration: none;
   width: 80%;
@@ -203,25 +201,11 @@ h4 {
 
 } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* About me styling */
 .about {
   width: 100%;
   padding: 100px 0px;
   background-color: #191919;
-
 }
 .about img {
   height: auto;
@@ -239,7 +223,7 @@ h4 {
   justify-content: space-around;
 }
 
-.main img{
+.main img {
   border-radius: 20px;
 }
 
@@ -280,7 +264,6 @@ button:hover {
 }
 
 /* Services Styling */
-
 
 .service {
   background-color: #101010;
@@ -348,89 +331,89 @@ h5 {
 
 /* hobbies page */
 
-.hobby-section{
+.hobby-section {
   background-color: rgba(73, 67, 67, 0.549);
   width: 100%;
   padding-top: 10px;
   padding-bottom: 40px;
 }
-.hobby-section h1{
+.hobby-section h1 {
   text-align: center;
 }
-.hobbies{
+.hobbies {
   width: 100%;
 }
-.travel{
+.travel {
   display: flex;
   padding: 10px 90px;
 }
 
-.travel img{
+.travel img {
   border-radius: 20px;
 }
 
-.one{
+.one {
   padding-left: 50px;
   text-align: center;
   padding-top: 50px;
 }
-.one h3{
+.one h3 {
   font-size: 36px;
   letter-spacing: 2px;
 }
-.one p{
+.one p {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1px;
   margin-top: -40px;
 }
-.chatting{
+.chatting {
   display: flex;
   padding: 10px 90px;
   margin-top: 50px;
 }
 
-.chatting img{
+.chatting img {
   border-radius: 20px;
 }
 
-.two{
+.two {
   padding-right: 50px;
   text-align: center;
   padding-top: 50px;
 }
-.two h3{
+.two h3 {
   font-size: 36px;
   color: black;
   letter-spacing: 2px;
 }
-.two p{
+.two p {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 1px;
   margin-top: -40px;
 }
-.reading{
+.reading {
   display: flex;
   padding: 10px 90px;
   margin-top: 50px;
   text-align: center;
 }
 
-.reading img{
+.reading img {
   border-radius: 20px;
 }
 
-.three{
+.three {
   padding-left: 50px;
   text-align: center;
   padding-top: 50px;
 }
-.three h3{
+.three h3 {
   font-size: 36px;
   letter-spacing: 2px;
 }
-.three p{
+.three p {
   font-size: 20px;
   line-height: 30px;
   color: black;
